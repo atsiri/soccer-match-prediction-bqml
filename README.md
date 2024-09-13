@@ -1,11 +1,6 @@
-This prediction model is done in BigQuery ML.
+This model prediction uses BigQuery Public Data listed below.
 
-The tables used are from GCS bucket input listed below.
-
-| input file                                 | table name   |
-| :----------------------------------------- | :----------- |
-| spls/bq-soccer-analytics/competitions.json | competitions |
-| spls/bq-soccer-analytics/matches.json	     | matches      |
-| spls/bq-soccer-analytics/teams.json	     | teams        |
-| spls/bq-soccer-analytics/players.json      | players      |
-| spls/bq-soccer-analytics/events.json       | events       |
+| schema                                    | table             |
+| :---------------------------------------- | :---------------- |
+| `bigquery-public-data.austin_bikeshare`   | bikeshare_trips   |
+| `bigquery-public-data.austin_bikeshare`   | bikeshare_stations|
